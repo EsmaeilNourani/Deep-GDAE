@@ -21,3 +21,11 @@ The notebooks are executed as follows:
 
 + [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
 
++ [`Befree.ipynb`](Befree.ipynb) Evaluation using the BeFree corpus 
+
++ [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies. 
+
++ [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
+
+
+
