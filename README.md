@@ -31,7 +31,7 @@ The notebooks are executed as follows:
 + [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
 
 ## Pre-trained word embedding models
-Links for the word embedding models are provided below. The paths to theses models are added to the relavant notebooks.
+The links for the word embedding models are provided below. The paths to theses models are added to the relavant notebooks.
 
 + PubMed-shuffle-win-30:
 https://github.com/cambridgeltl/BioNLP-2016
