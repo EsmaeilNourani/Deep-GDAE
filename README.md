@@ -30,5 +30,8 @@ The notebooks are executed as follows:
 
 + [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
 
+# pre-trained word embedding models
++ PubMed-shuffle-win-30 
+
 
 
