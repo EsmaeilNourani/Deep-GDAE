@@ -30,7 +30,7 @@ The notebooks are executed as follows:
 
 + [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
 
-# pre-trained word embedding models
+# Pre-trained word embedding models
 Links for the word embedding models are provided below. The paths to theses models are added to the relavant notebooks.
 
 + PubMed-shuffle-win-30:
