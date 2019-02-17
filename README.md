@@ -31,7 +31,15 @@ The notebooks are executed as follows:
 + [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
 
 # pre-trained word embedding models
-+ PubMed-shuffle-win-30 
+
++ PubMed-shuffle-win-30:
+https://github.com/cambridgeltl/BioNLP-2016
+
++ Fast Text (crawl-300d-2M):
+https://fasttext.cc/docs/en/english-vectors.html
+
++ PubMed w2v:
+http://jbjorne.github.io/TEES/
 
 
 
