@@ -9,7 +9,7 @@ Deep-GDAE integrates the specificities of a Convolution Neural Network (CNN) and
 
 ### 1. Pre-trained word embedding models
 Download one of the following pre trained word embedding files: 
-Add the path of downloaded file to the preProcess notebooks (replace 'wfile' with your own path )   
+Add the path of downloaded file to the preProcess notebooks (replace 'wefile' with your own path )   
 + PubMed-shuffle-win-30:
 https://github.com/cambridgeltl/BioNLP-2016
 
@@ -19,7 +19,7 @@ https://fasttext.cc/docs/en/english-vectors.html
 + PubMed w2v:
 http://jbjorne.github.io/TEES/
 
-### 2. Run the preProcess notebooks to generate the reuired pickle files for training the model
+### 2. Run the preProcess notebooks to generate the required pickle files for training the model
 
 
 ### 3. Execute one of the benchmark datasets as listed here to verify the performance. 
