@@ -24,6 +24,9 @@ http://jbjorne.github.io/TEES/
 
 ### 3. Execute one of the benchmark datasets as listed here to verify the performance. 
 
++ [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
+
+
 1.[[Befree](https://www.ncbi.nlm.nih.gov/pubmed/25886734 "Extraction of relations between genes and diseases from text and large-scale data analysis")].
 
 + [`preProcess.ipynb`](Befree_GAD/pre_process.ipynb) Reads the data set and creates the primitive features including word and position embeddings, and saves the required file for training as a pickle file.
@@ -35,8 +38,4 @@ http://jbjorne.github.io/TEES/
 2.[[SNPPhenA corpus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5383945/ "corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature")] corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature. 
 
 + [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies.
-
-3. contains the required methods which are called by other notebooks. 
-
-+ [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
 
