@@ -6,7 +6,23 @@ Deep-GDAE integrates the specificities of a Convolution Neural Network (CNN) and
 
 ## Execution
 
-W use several benchmark datasets to verify the performance.
+
+### 1. Pre-trained word embedding models
+Download one of the following pre trained word embedding files: 
+Add the path of downloaded file to the preProcess notebooks (replace 'wfile' with your own path )   
++ PubMed-shuffle-win-30:
+https://github.com/cambridgeltl/BioNLP-2016
+
++ Fast Text (crawl-300d-2M):
+https://fasttext.cc/docs/en/english-vectors.html
+
++ PubMed w2v:
+http://jbjorne.github.io/TEES/
+
+### 2. Run the preProcess notebooks to generate the reuired pickle files for training the model
+
+
+### 3. Execute one of the benchmark datasets as listed here to verify the performance. 
 
 1.[[Befree](https://www.ncbi.nlm.nih.gov/pubmed/25886734 "Extraction of relations between genes and diseases from text and large-scale data analysis")].
 
@@ -18,29 +34,9 @@ W use several benchmark datasets to verify the performance.
 
 2.[[SNPPhenA corpus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5383945/ "corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature")] corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature. 
 
-The notebooks are executed as follows:
-
-+ 1. Befree 
-
-+ [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
-
-+ [`Befree.ipynb`](Befree.ipynb) Evaluation using the BeFree corpus 
-
 + [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies. 
 
-+ [`newCorpus.ipynb`](newCorpus.ipynb) Evaluation using the generated corpus
+3. contains the required methods which are called by other notebooks
 
-## Pre-trained word embedding models
-The links for the word embedding models are provided below. After downloading, the paths to theses models are added to the relavant notebooks.
-
-+ PubMed-shuffle-win-30:
-https://github.com/cambridgeltl/BioNLP-2016
-
-+ Fast Text (crawl-300d-2M):
-https://fasttext.cc/docs/en/english-vectors.html
-
-+ PubMed w2v:
-http://jbjorne.github.io/TEES/
-
-
++ [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
 
