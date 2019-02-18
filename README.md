@@ -34,9 +34,9 @@ http://jbjorne.github.io/TEES/
 
 2.[[SNPPhenA corpus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5383945/ "corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature")] corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature. 
 
-+ [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies. 
++ [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies.
 
-3. contains the required methods which are called by other notebooks
+3. contains the required methods which are called by other notebooks. 
 
 + [`utils.ipynb`](utils.ipynb) contains the required methods which are called by other notebooks
 
