@@ -41,7 +41,7 @@ http://jbjorne.github.io/TEES/
 
 2.[[SNPPhenA corpus](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5383945/ "corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature")] corpus for extracting ranked associations of single-nucleotide polymorphisms and phenotypes from literature. 
 
-+ [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies.
++ [`SNP.ipynb`](SNP_allCandidates/SNP-allCandidates.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies.
 
 
-+ [`SNP-Transfer Learning.ipynb`](snp.ipynb) We selected the SNP-phenotype dataset for transferring knowledge from the gene-disease domain. The rich features transferred from the base model can help to train the new model with SNP-phenotype sequences
++ [`SNP-Transfer Learning.ipynb`](SNP_transfer_learning/SNP-transfer.ipynb) We selected the SNP-phenotype dataset for transferring knowledge from the gene-disease domain. The rich features transferred from the base model can help to train the new model with SNP-phenotype sequences
