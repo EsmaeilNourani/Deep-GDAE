@@ -39,3 +39,5 @@ http://jbjorne.github.io/TEES/
 
 + [`SNP.ipynb`](snp.ipynb) Results of prforming Deep-GDAE on the SNPPhenA corpus, which was developed with the purpose of extracting the ranked associations of SNPs and phenotypes from GWA studies.
 
+
++ [`SNP-Transfer Learning.ipynb`](snp.ipynb) We selected the SNP-phenotype dataset for transferring knowledge from the gene-disease domain. The rich features transferred from the base model can help to train the new model with SNP-phenotype sequences
