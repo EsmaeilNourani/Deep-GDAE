@@ -2,7 +2,7 @@
 Gene-Disease Association Extraction
 
 Deep-GDAE integrates the specificities of a Convolution Neural Network (CNN) and an Attention-based Bidirectional Long Short-Term Memory Network to classify Gene-Disease Associations.
-## Deep-GDAE Corpus
+## [`Deep-GDAE Corpus`](data/our_corpus) 
 Along with the benchmark dataset, we have generated a corpus using DisGeNET (database of GDAs) and PubTator (to retrieve biomedical texts).
 Using PubTator, we find all the PMIDs containing at least one gene and disease name. Then all the sentences are passed through three steps of filtering for producing the false instances.
 Samples of the true class are extracted from DisGeNET, considering only curated associations. Deep-GDAE Corpus contains 8000 sentences (4000 samples for True Associations and 4000 samples for False Associations) with 1904 and 3635 unique diseases  and genes respectively. 
